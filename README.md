@@ -1,4 +1,7 @@
 # This-repository-contains-the-implementation-of-Linear-Regression
 Ankitha Ammu ,700790562
+
+
+
 Problem StatementThe goal of this project is to implement linear regression from scratch using Gradient Descent. The results are compared against the Normal Equation (Closed-form solution) to verify accuracy.+2DatasetTarget Function: $y = 3 + 4x + \epsilon$.Sample Size: 200 samples with $x \in [0,5]$.Noise: Gaussian noise ($\epsilon$) was added to the data generation process.Methods Used1. Closed-form Solution (Normal Equation)I implemented the analytical approach to find the optimal parameters $(\theta)$ using the formula:$$\theta = (X^T X)^{-1} X^T y$$.
 This provides a baseline for the intercept and slope to compare against the iterative method.+22. Gradient DescentI implemented an iterative optimization algorithm to minimize the cost function.Parameters: Initialized $\theta = [0,0]$ with a learning rate ($\eta$) of 0.05.Iterations: 1000 total iterations.Gradient Formula: $\nabla_{\theta}J(\theta) = \frac{2}{m}X^T(X\theta - y)$.
