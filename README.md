@@ -1,5 +1,5 @@
 # This-repository-contains-the-implementation-of-Linear-Regression
-Ankitha Ammu ,700790562
+Ankitha Ammu 
 
 
 
